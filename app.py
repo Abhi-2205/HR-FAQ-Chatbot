@@ -11,7 +11,7 @@ with open("faq.json", "r", encoding="utf-8") as f:
     faq_data = json.load(f)
 
 # Slack bot setup
-SLACK_BOT_TOKEN = "xoxb-5050737777652-9279963182803-o43f371Wwkk8lN3fuXGKiyXi"
+SLACK_BOT_TOKEN = "SLACK_BOT_TOKEN"
 slack_client = WebClient(token=SLACK_BOT_TOKEN)
 
 # Slack events handler
